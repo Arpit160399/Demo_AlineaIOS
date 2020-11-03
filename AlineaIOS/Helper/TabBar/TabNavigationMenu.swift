@@ -47,7 +47,7 @@ class CustomTabMenu: UIView {
         stackH.distribution = .fillEqually
         createSelectedBar()
         shadowView.addSubview(stackH)
-        stackH.anchor(top: shadowView.topAnchor, bottom: shadowView.bottomAnchor, left: shadowView.leftAnchor, right:shadowView.rightAnchor,padding: .init(top: 15, left: 0, bottom: -15, right: -0))
+        stackH.anchor(top: shadowView.topAnchor, bottom: shadowView.bottomAnchor, left: shadowView.leftAnchor, right:shadowView.rightAnchor,padding: .init(top: 15, left: 0, bottom: -25, right: -0))
         activateTab(tab: 1)
     }
     

@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             TabItem(name: UIImage(named: "icons8-scatter_plot")!, View: UIViewController()),
             TabItem(name: UIImage(named: "icons8-conference_foreground_selected_skin_type_7")!, View: UIViewController())
             ,TabItem(name: UIImage(named: "icons8-idea_sharing")!, View: UIViewController())]
-        let tabbar = CustomTabBarController(tabItems: tabItems,tabBarHeight: 57)
+        let tabbar = CustomTabBarController(tabItems: tabItems,tabBarHeight: 76)
         window?.rootViewController = tabbar
         window?.makeKeyAndVisible()
     }

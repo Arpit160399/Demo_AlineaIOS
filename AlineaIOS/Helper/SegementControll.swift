@@ -23,7 +23,7 @@ class SegementControl: UIView {
     var selectedTextColor: UIColor = Themeing.shared.accent
     var selectedColor: UIColor = .systemBlue
     var separatorColor: UIColor = .gray
-    var fontText : UIFont = .systemFont(ofSize: 12, weight: .semibold)
+    var fontText : UIFont = .systemFont(ofSize: 13, weight: .semibold)
     var delegate : SegementControlDelegate?
     
      init(title : [String]) {
